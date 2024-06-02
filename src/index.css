@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background: #000;
+}
+*::selection{
+  background: #fff;
+  color: #000;
+}
+.carousel .control-next.control-arrow, .carousel .control-prev.control-arrow {
+  display: none;
+}
+
+  
